@@ -1,0 +1,1 @@
+chrome.runtime.onInstalled.addListener(()=>{console.log("JSON Prompter extension installed")});chrome.runtime.onMessage.addListener((e,o,n)=>(console.log("Received message from",o),e.type==="GET_DATA"&&n({data:"Response from background script"}),!0));

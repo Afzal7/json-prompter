@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+import o from"chalk";function c(){let e=process.argv.slice(2),s=process.env.npm_execpath||"",n="shadcn@latest";return s.includes("pnpm")?`pnpm dlx ${n}${e.length?` ${e.join(" ")}`:""}`:s.includes("yarn")?`yarn dlx ${n}${e.length?` ${e.join(" ")}`:""}`:s.includes("bun")?`bunx ${n}${e.length?` ${e.join(" ")}`:""}`:`npx ${n}${e.length?` ${e.join(" ")}`:""}`}var l=async()=>{console.log(o.yellow("The 'shadcn-ui' package is deprecated. Please use the 'shadcn' package instead:")),console.log(""),console.log(o.green(`  ${c()}`)),console.log(""),console.log(o.yellow("For more information, visit: https://ui.shadcn.com/docs/cli")),console.log("")};l().catch(e=>{console.error(o.red("Error:"),e.message),process.exit(1)});
+//# sourceMappingURL=index.js.map
