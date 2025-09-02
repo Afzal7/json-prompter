@@ -52,7 +52,7 @@ JSON Prompter is a powerful Chrome extension that transforms how you create stru
 
 ### From Chrome Web Store (Recommended)
 
-1. Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/json-prompter/)
+1. Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/json-prompter/dbdaebdhkcfdcnaajfodagadnjnmahpm)
 2. Click "Add to Chrome"
 3. Start creating professional JSON prompts!
 
